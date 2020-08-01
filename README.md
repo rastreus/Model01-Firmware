@@ -1,6 +1,13 @@
-# Keyboardio Model 01 Firmware
+# Keyboardio Model 01 Firmware _(rastreus)_
 
-_The default firmware for the Keyboardio Model 01_
+_The custom rastreus firmware for the Keyboardio Model 01_
+
+This is my specific firmware for the Keyboardio Model 01. I forked off of the official repo to more easily merge
+any upstream changes. However, this firmware has taken examples from [fitz/Keyboardio-Maltron-Layout](https://github.com/fitz/Keyboardio-Maltron-Layout).
+
+At some point, I would also like to add a layer for APL unicode characters since I am dabbling in [Dyalog APL](https://www.dyalog.com) right now.
+
+---
 
 <h3>This is a quick start guide for folks who are familiar with Arduino and prefer to use the command line. For everyone else:
 
@@ -59,9 +66,3 @@ You can also find Kaleidoscope-specific documentation [on our wiki](https://gith
 # Getting help
 
 As you start to explore customization of your keyboard's firmware, the community at https://community.keyboard.io can often be a valuable resource.
-
-# Thanks!
-
-<3 jesse
-
-[![Build Status](https://travis-ci.org/keyboardio/Model01-Firmware.svg?branch=master)](https://travis-ci.org/keyboardio/Model01-Firmware)
